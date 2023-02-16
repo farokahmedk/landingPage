@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 900px;
   margin: auto;
 }
 
@@ -117,3 +117,58 @@ body {
 }
 
 /*=====  End of hero  ======*/
+
+/*=============================================
+=            light section            =
+=============================================*/
+
+.light-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+}
+
+.light-content-left h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #091133;
+}
+
+.light-content-left p {
+  color: #6f7cb2;
+}
+
+.light-content-left-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  grid-column-gap: 20px;
+}
+
+.lightCLB_left h3,
+.lightCLB_right h3 {
+  color: #091133;
+  font-size: 16px;
+  font-weight: 500;
+}
+.lightCLB_left p,
+.lightCLB_right p {
+  color: #5d6970;
+  font-size: 12px;
+}
+
+/*=====  End of light section  ======*/
+
+/*=============================================
+=            fast            =
+=============================================*/
+
+.fast-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-column-gap: 160px;
+  padding: 100px 0;
+}
+
+/*=====  End of fast  ======*/
